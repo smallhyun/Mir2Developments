@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{042d30ae-fd67-47d2-b6a4-450585627521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{95055cc5-53d1-48da-8ce1-990c1fd7f7b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7917d0f4-c9b2-42af-a441-26dfc6901816}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\icon.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="Res\toolbar.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\resource.aps">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Res\resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="dlgcfg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="mir2wnd.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\endecode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\mir2packet.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="dbtable.h" />
+    <ClInclude Include="loginsvrwnd.h" />
+    <ClInclude Include="mir2dbhandler.h" />
+    <ClInclude Include="netcheckserver.h" />
+    <ClInclude Include="netgameserver.h" />
+    <ClInclude Include="..\_Oranze Library\netiocp.h" />
+    <ClInclude Include="netlogingate.h" />
+    <ClInclude Include="netloginsvr.h" />
+    <ClInclude Include="netUdpsender.h" />
+    <ClInclude Include="protocol.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Res\resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dlgcfg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="mir2wnd.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\endecode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\mir2packet.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="loginsvrwnd.cpp" />
+    <ClCompile Include="mir2dbhandler.cpp" />
+    <ClCompile Include="netcheckserver.cpp" />
+    <ClCompile Include="netgameserver.cpp" />
+    <ClCompile Include="..\_Oranze Library\netiocp.cpp" />
+    <ClCompile Include="netlogingate.cpp" />
+    <ClCompile Include="netloginsvr.cpp" />
+    <ClCompile Include="netUdpsender.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\_Oranze Library\_Bin\_Oranze Library_Debug.lib" />
+  </ItemGroup>
+</Project>

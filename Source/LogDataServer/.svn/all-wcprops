@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Server/ELogDataServer
+END
+DELTEMP.BAT
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/DELTEMP.BAT
+END
+LogDataMain.~pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LogDataMain.~pas
+END
+LogDataServer.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LogDataServer.cfg
+END
+LDShare.~pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LDShare.~pas
+END
+LogDataMain.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LogDataMain.pas
+END
+LogDataMain.~dfm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LogDataMain.~dfm
+END
+LDShare.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LDShare.pas
+END
+LogDataMain.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LogDataMain.dfm
+END
+LogDataMain.ddp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LogDataMain.ddp
+END
+LogDataServer.dpr
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LogDataServer.dpr
+END
+LogDataServer.dof
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LogDataServer.dof
+END
+LogDataServer.res
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/LogDataServer.res
+END
+Grobal2.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/Grobal2.pas
+END
+HUtil32.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/Server/ELogDataServer/HUtil32.pas
+END

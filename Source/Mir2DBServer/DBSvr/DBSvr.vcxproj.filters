@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{53b53b54-48d8-432a-933a-ff73373cc913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{d4f2b276-3f45-4e70-9035-a68bdb4a3e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{490dd8ce-5d9f-4d80-b5b4-e5e17b15b8ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\icon.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="Res\toolbar.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Res\resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="dbsvrwnd.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="dlgcfg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="mir2wnd.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\endecode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\mir2packet.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\sqlhandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="mir2dbhandler.h" />
+    <ClInclude Include="msgfilter.h" />
+    <ClInclude Include="netdbserver.h" />
+    <ClInclude Include="netgameserver.h" />
+    <ClInclude Include="..\_Oranze Library\netiocp.h" />
+    <ClInclude Include="netloginserver.h" />
+    <ClInclude Include="netrungate.h" />
+    <ClInclude Include="protocol.h" />
+    <ClInclude Include="tablesdefine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Res\resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dbsvrwnd.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgcfg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="mir2wnd.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\endecode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\mir2packet.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\sqlhandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="mir2dbhandler.cpp" />
+    <ClCompile Include="msgfilter.cpp" />
+    <ClCompile Include="netdbserver.cpp" />
+    <ClCompile Include="netgameserver.cpp" />
+    <ClCompile Include="..\_Oranze Library\netiocp.cpp" />
+    <ClCompile Include="netloginserver.cpp" />
+    <ClCompile Include="netrungate.cpp" />
+    <ClCompile Include="tablesdefine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\_Oranze Library\_Bin\_Oranze Library.lib" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,62 @@
+package HGEDelphi;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  vclimg;
+
+contains
+  HGE in 'HGE.pas',
+  HGEBase in 'HGEBase.pas',
+  HGECanvas in 'HGECanvas.pas',
+  HGEControls in 'HGEControls.pas',
+  HGEGUI in 'HGEGUI.pas',
+  HGERect in 'HGERect.pas',
+  HGESounds in 'HGESounds.pas',
+  HGESprite in 'HGESprite.pas',
+  HGETextures in 'HGETextures.pas',
+  HGEUtils in 'HGEUtils.pas',
+  WilPion in 'WilPion.pas',
+  DirectXSound in 'Sound\DirectXSound.pas',
+  DirectXTypes in 'Sound\DirectXTypes.pas',
+  DirectXWave in 'Sound\DirectXWave.pas',
+  WIL in 'WIL\WIL.pas',
+  wmM2Def in 'WIL\wmM2Def.pas',
+  wmM2Wis in 'WIL\wmM2Wis.pas',
+  wmM2Zip in 'WIL\wmM2Zip.pas',
+  wmMyImage in 'WIL\wmMyImage.pas',
+  DESEC in 'Common\DESEC.pas',
+  Vectors2px in 'Vectors2px.pas',
+  HGEFonts in 'HGEFonts.pas';
+
+end.
+
+
+
